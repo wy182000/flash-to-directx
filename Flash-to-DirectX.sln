@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlashDX", "Source\FlashDX.vcproj", "{05F771C3-DD6E-4AA2-8791-7231C8836B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{9C122C38-454C-4FBB-A264-D21672C6D775}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI", "Samples\GUI\GUI.vcproj", "{2D9BC145-14FF-4B62-8738-E764FC669DEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F} = {05F771C3-DD6E-4AA2-8791-7231C8836B7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUIDX11", "Samples\GUIDX11\GUIDX11.vcproj", "{3082532A-1C92-4E78-9653-D10DC7B6D43C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Profile|Win32 = Profile|Win32
+		Profile|x64 = Profile|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Debug|Win32.Build.0 = Debug|Win32
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Debug|x64.ActiveCfg = Debug|x64
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Debug|x64.Build.0 = Debug|x64
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Profile|Win32.ActiveCfg = Profile|Win32
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Profile|Win32.Build.0 = Profile|Win32
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Profile|x64.ActiveCfg = Profile|x64
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Profile|x64.Build.0 = Profile|x64
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Release|Win32.ActiveCfg = Release|Win32
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Release|Win32.Build.0 = Release|Win32
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Release|x64.ActiveCfg = Release|x64
+		{05F771C3-DD6E-4AA2-8791-7231C8836B7F}.Release|x64.Build.0 = Release|x64
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Debug|Win32.Build.0 = Debug|Win32
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Debug|x64.ActiveCfg = Debug|x64
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Debug|x64.Build.0 = Debug|x64
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Profile|Win32.ActiveCfg = Profile|Win32
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Profile|Win32.Build.0 = Profile|Win32
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Profile|x64.ActiveCfg = Profile|x64
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Profile|x64.Build.0 = Profile|x64
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Release|Win32.ActiveCfg = Release|Win32
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Release|Win32.Build.0 = Release|Win32
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Release|x64.ActiveCfg = Release|x64
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF}.Release|x64.Build.0 = Release|x64
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Debug|Win32.Build.0 = Debug|Win32
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Debug|x64.ActiveCfg = Debug|x64
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Debug|x64.Build.0 = Debug|x64
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Profile|Win32.ActiveCfg = Profile|Win32
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Profile|Win32.Build.0 = Profile|Win32
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Profile|x64.ActiveCfg = Profile|x64
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Release|Win32.ActiveCfg = Release|Win32
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Release|Win32.Build.0 = Release|Win32
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Release|x64.ActiveCfg = Release|x64
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D9BC145-14FF-4B62-8738-E764FC669DEF} = {9C122C38-454C-4FBB-A264-D21672C6D775}
+		{3082532A-1C92-4E78-9653-D10DC7B6D43C} = {9C122C38-454C-4FBB-A264-D21672C6D775}
+	EndGlobalSection
+EndGlobal
